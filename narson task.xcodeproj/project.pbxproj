@@ -3,25 +3,41 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		4567DFE72319965000DF60D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4567DFE62319965000DF60D3 /* AppDelegate.swift */; };
-		4567DFE92319965000DF60D3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4567DFE82319965000DF60D3 /* ViewController.swift */; };
 		4567DFEC2319965000DF60D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4567DFEA2319965000DF60D3 /* Main.storyboard */; };
 		4567DFEE2319966200DF60D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4567DFED2319966200DF60D3 /* Assets.xcassets */; };
 		4567DFF12319966200DF60D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4567DFEF2319966200DF60D3 /* LaunchScreen.storyboard */; };
+		4567E0002319A55D00DF60D3 /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4567DFFE2319A55D00DF60D3 /* HomeTableViewCell.swift */; };
+		4567E0012319A55D00DF60D3 /* HomeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4567DFFF2319A55D00DF60D3 /* HomeTableViewCell.xib */; };
+		4567E0062319B07D00DF60D3 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4567E0052319B07D00DF60D3 /* HomeViewController.swift */; };
+		4567E0092319B60500DF60D3 /* +SegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4567E0082319B60500DF60D3 /* +SegmentedControl.swift */; };
+		4567E00B2319CEDF00DF60D3 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4567E00A2319CEDF00DF60D3 /* Item.swift */; };
+		4567E00D2319CFC300DF60D3 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4567E00C2319CFC300DF60D3 /* Store.swift */; };
+		4567E00F2319D20900DF60D3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4567E00E2319D20900DF60D3 /* GoogleService-Info.plist */; };
+		58819999568B4D408C20CC58 /* Pods_narson_task.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 508CBC92D4871CECDE2E0167 /* Pods_narson_task.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4567DFE32319965000DF60D3 /* narson task.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "narson task.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4567DFE62319965000DF60D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4567DFE82319965000DF60D3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4567DFEB2319965000DF60D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4567DFED2319966200DF60D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4567DFF02319966200DF60D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4567DFF22319966200DF60D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4567DFFE2319A55D00DF60D3 /* HomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
+		4567DFFF2319A55D00DF60D3 /* HomeTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeTableViewCell.xib; sourceTree = "<group>"; };
+		4567E0052319B07D00DF60D3 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		4567E0082319B60500DF60D3 /* +SegmentedControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "+SegmentedControl.swift"; sourceTree = "<group>"; };
+		4567E00A2319CEDF00DF60D3 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		4567E00C2319CFC300DF60D3 /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
+		4567E00E2319D20900DF60D3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		508CBC92D4871CECDE2E0167 /* Pods_narson_task.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_narson_task.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9703F78BF7853EADECE69A2F /* Pods-narson task.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-narson task.release.xcconfig"; path = "Target Support Files/Pods-narson task/Pods-narson task.release.xcconfig"; sourceTree = "<group>"; };
+		ACBA1C80C3E5AA42388A80ED /* Pods-narson task.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-narson task.debug.xcconfig"; path = "Target Support Files/Pods-narson task/Pods-narson task.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +45,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58819999568B4D408C20CC58 /* Pods_narson_task.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		24482A71950ACCBCC6E5599C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				508CBC92D4871CECDE2E0167 /* Pods_narson_task.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		4567DFDA2319965000DF60D3 = {
 			isa = PBXGroup;
 			children = (
 				4567DFE52319965000DF60D3 /* narson task */,
 				4567DFE42319965000DF60D3 /* Products */,
+				C9CBC1DD958B256A7E327E72 /* Pods */,
+				24482A71950ACCBCC6E5599C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,11 +81,12 @@
 		4567DFE52319965000DF60D3 /* narson task */ = {
 			isa = PBXGroup;
 			children = (
+				4567E00E2319D20900DF60D3 /* GoogleService-Info.plist */,
+				4567E0072319B5D600DF60D3 /* Extension */,
 				4567DFFA231996BA00DF60D3 /* View */,
 				4567DFF9231996B200DF60D3 /* Model */,
 				4567DFF8231996A800DF60D3 /* Store */,
 				4567DFE62319965000DF60D3 /* AppDelegate.swift */,
-				4567DFE82319965000DF60D3 /* ViewController.swift */,
 				4567DFEA2319965000DF60D3 /* Main.storyboard */,
 				4567DFED2319966200DF60D3 /* Assets.xcassets */,
 				4567DFEF2319966200DF60D3 /* LaunchScreen.storyboard */,
@@ -70,6 +98,7 @@
 		4567DFF8231996A800DF60D3 /* Store */ = {
 			isa = PBXGroup;
 			children = (
+				4567E00C2319CFC300DF60D3 /* Store.swift */,
 			);
 			path = Store;
 			sourceTree = "<group>";
@@ -77,6 +106,7 @@
 		4567DFF9231996B200DF60D3 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				4567E00A2319CEDF00DF60D3 /* Item.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -84,8 +114,36 @@
 		4567DFFA231996BA00DF60D3 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				4567E0052319B07D00DF60D3 /* HomeViewController.swift */,
+				4567DFFB2319A2F600DF60D3 /* cell */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		4567DFFB2319A2F600DF60D3 /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				4567DFFE2319A55D00DF60D3 /* HomeTableViewCell.swift */,
+				4567DFFF2319A55D00DF60D3 /* HomeTableViewCell.xib */,
+			);
+			path = cell;
+			sourceTree = "<group>";
+		};
+		4567E0072319B5D600DF60D3 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				4567E0082319B60500DF60D3 /* +SegmentedControl.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		C9CBC1DD958B256A7E327E72 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ACBA1C80C3E5AA42388A80ED /* Pods-narson task.debug.xcconfig */,
+				9703F78BF7853EADECE69A2F /* Pods-narson task.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -95,9 +153,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4567DFF52319966200DF60D3 /* Build configuration list for PBXNativeTarget "narson task" */;
 			buildPhases = (
+				6C0505DB1C8B5770B472B4DE /* [CP] Check Pods Manifest.lock */,
 				4567DFDF2319965000DF60D3 /* Sources */,
 				4567DFE02319965000DF60D3 /* Frameworks */,
 				4567DFE12319965000DF60D3 /* Resources */,
+				31B02EB1B327C99A772750BB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -148,19 +208,67 @@
 			files = (
 				4567DFF12319966200DF60D3 /* LaunchScreen.storyboard in Resources */,
 				4567DFEE2319966200DF60D3 /* Assets.xcassets in Resources */,
+				4567E00F2319D20900DF60D3 /* GoogleService-Info.plist in Resources */,
+				4567E0012319A55D00DF60D3 /* HomeTableViewCell.xib in Resources */,
 				4567DFEC2319965000DF60D3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		31B02EB1B327C99A772750BB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-narson task/Pods-narson task-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-narson task/Pods-narson task-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-narson task/Pods-narson task-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6C0505DB1C8B5770B472B4DE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-narson task-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4567DFDF2319965000DF60D3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4567DFE92319965000DF60D3 /* ViewController.swift in Sources */,
+				4567E00B2319CEDF00DF60D3 /* Item.swift in Sources */,
+				4567E0002319A55D00DF60D3 /* HomeTableViewCell.swift in Sources */,
 				4567DFE72319965000DF60D3 /* AppDelegate.swift in Sources */,
+				4567E00D2319CFC300DF60D3 /* Store.swift in Sources */,
+				4567E0092319B60500DF60D3 /* +SegmentedControl.swift in Sources */,
+				4567E0062319B07D00DF60D3 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,6 +412,7 @@
 		};
 		4567DFF62319966200DF60D3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACBA1C80C3E5AA42388A80ED /* Pods-narson task.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -321,6 +430,7 @@
 		};
 		4567DFF72319966200DF60D3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9703F78BF7853EADECE69A2F /* Pods-narson task.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

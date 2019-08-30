@@ -1,0 +1,6 @@
+framework module Pods_narson_task {
+  umbrella header "Pods-narson task-umbrella.h"
+
+  export *
+  module * { export * }
+}
