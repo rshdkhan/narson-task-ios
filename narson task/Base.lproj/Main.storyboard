@@ -10,7 +10,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Home View Controller-->
+        <!--Search-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="HomeViewController" customModule="narson_task" customModuleProvider="target" sceneMemberID="viewController">
@@ -79,9 +79,9 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9si-aD-hE7" userLabel="Top View">
                                         <rect key="frame" x="0.0" y="105" width="414" height="620"/>
                                         <subviews>
-                                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="a9s-cP-ytT">
+                                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" keyboardDismissMode="onDrag" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="a9s-cP-ytT">
                                                 <rect key="frame" x="0.0" y="0.0" width="414" height="620"/>
-                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <color key="sectionIndexBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             </tableView>
                                         </subviews>
@@ -128,9 +128,10 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
-                    <navigationItem key="navigationItem" id="ILH-z9-6S4"/>
+                    <navigationItem key="navigationItem" title="Search" id="ILH-z9-6S4"/>
                     <connections>
                         <outlet property="peopleView" destination="9vn-hg-7qS" id="JNl-ZR-G6a"/>
+                        <outlet property="searchTF" destination="bwg-K5-AMT" id="jUE-My-KOJ"/>
                         <outlet property="segmentedControl" destination="7Tp-nj-e5P" id="53H-Rh-TkZ"/>
                         <outlet property="tableView" destination="a9s-cP-ytT" id="zAD-iC-IJV"/>
                         <outlet property="tagView" destination="QFp-Ba-vVJ" id="OHK-1Y-nPj"/>
@@ -199,11 +200,12 @@
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <color key="barTintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="selectedImageTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <userDefinedRuntimeAttributes>
                             <userDefinedRuntimeAttribute type="color" keyPath="tintColor">
                                 <color key="value" red="0.12549019607843137" green="0.45882352941176469" blue="0.25490196078431371" alpha="1" colorSpace="calibratedRGB"/>
                             </userDefinedRuntimeAttribute>
-                            <userDefinedRuntimeAttribute type="color" keyPath="unselectedTintColor">
+                            <userDefinedRuntimeAttribute type="color" keyPath="unselectedItemTintColor">
                                 <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </userDefinedRuntimeAttribute>
                         </userDefinedRuntimeAttributes>
@@ -219,16 +221,22 @@
             </objects>
             <point key="canvasLocation" x="137.68115942028987" y="98.4375"/>
         </scene>
-        <!--Item-->
+        <!--Navigation Controller-->
         <scene sceneID="fJW-zp-uRZ">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="AOQ-Is-DjZ" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="D17-cY-nUP"/>
+                    <tabBarItem key="tabBarItem" title="" image="home" id="D17-cY-nUP">
+                        <color key="badgeColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBarItem>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="O11-jU-nkf">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <color key="barTintColor" red="0.21568627450980393" green="0.30980392156862746" blue="0.74901960784313726" alpha="1" colorSpace="calibratedRGB"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </textAttributes>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
@@ -239,15 +247,16 @@
             </objects>
             <point key="canvasLocation" x="-962" y="832"/>
         </scene>
-        <!--Item-->
+        <!--Navigation Controller-->
         <scene sceneID="rhV-HH-vT0">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="aMf-ik-w5A" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="Mh5-tT-8hS"/>
+                    <tabBarItem key="tabBarItem" title="" image="calendar" id="Mh5-tT-8hS"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="rU4-Fg-O8Q">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <color key="barTintColor" red="0.21568627450980393" green="0.30980392156862746" blue="0.74901960784313726" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -259,15 +268,16 @@
             </objects>
             <point key="canvasLocation" x="-145" y="832"/>
         </scene>
-        <!--Item-->
+        <!--Navigation Controller-->
         <scene sceneID="xG3-Dl-gSp">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="6P9-LT-Ia2" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="xk5-R3-JWx"/>
+                    <tabBarItem key="tabBarItem" title="" image="notification" id="xk5-R3-JWx"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="c0o-Wn-zpT">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <color key="barTintColor" red="0.2156862745" green="0.30588235289999999" blue="0.74901960779999999" alpha="1" colorSpace="calibratedRGB"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -279,15 +289,16 @@
             </objects>
             <point key="canvasLocation" x="678" y="832"/>
         </scene>
-        <!--Item-->
+        <!--Navigation Controller-->
         <scene sceneID="Mjn-La-5QT">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Bvs-BE-SEp" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="pKB-dL-lZA"/>
+                    <tabBarItem key="tabBarItem" title="" image="profile_tab" id="pKB-dL-lZA"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="aro-JM-xoz">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <color key="barTintColor" red="0.2156862745" green="0.30588235289999999" blue="0.74901960779999999" alpha="1" colorSpace="calibratedRGB"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -300,4 +311,10 @@
             <point key="canvasLocation" x="1470" y="832"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="calendar" width="32" height="32"/>
+        <image name="home" width="32" height="32"/>
+        <image name="notification" width="32" height="32"/>
+        <image name="profile_tab" width="32" height="32"/>
+    </resources>
 </document>

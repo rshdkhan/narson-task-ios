@@ -7,5 +7,8 @@ target 'narson task' do
 
   # Pods for narson task
   pod 'Cosmos', '~> 19.0'
+  pod 'Firebase/Core'
+  pod 'Firebase/Firestore'
+  pod 'CodableFirebase'
 
 end

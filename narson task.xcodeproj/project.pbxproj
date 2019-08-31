@@ -114,8 +114,7 @@
 		4567DFFA231996BA00DF60D3 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				4567E0052319B07D00DF60D3 /* HomeViewController.swift */,
-				4567DFFB2319A2F600DF60D3 /* cell */,
+				459259FD231ADF88005390AE /* home */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -135,6 +134,15 @@
 				4567E0082319B60500DF60D3 /* +SegmentedControl.swift */,
 			);
 			path = Extension;
+			sourceTree = "<group>";
+		};
+		459259FD231ADF88005390AE /* home */ = {
+			isa = PBXGroup;
+			children = (
+				4567DFFB2319A2F600DF60D3 /* cell */,
+				4567E0052319B07D00DF60D3 /* HomeViewController.swift */,
+			);
+			path = home;
 			sourceTree = "<group>";
 		};
 		C9CBC1DD958B256A7E327E72 /* Pods */ = {

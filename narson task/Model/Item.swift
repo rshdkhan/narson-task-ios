@@ -11,7 +11,7 @@ import Foundation
 class Item: IDAO {
     var id: String?
     var title: String = ""
-    var rating: String = ""
-    var price: String = ""
-    var isLive: Bool = false
+    var rating: Double = 0.0
+    var price: Double = 0.0
+    var isOnline: Bool = false
 }
